@@ -55,8 +55,6 @@ const item = {
 
 export function DashboardView() {
   const { stats, peers, activeModel } = useAppStore()
-  const activePeers = peers.filter((p) => p.status === 'online')
-
   return (
     <ScrollArea className="h-full">
       <motion.div

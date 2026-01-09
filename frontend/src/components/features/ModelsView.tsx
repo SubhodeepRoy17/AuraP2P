@@ -7,7 +7,6 @@ import {
   Play,
   Pause,
   Check,
-  Loader2,
   Info,
   Search,
   Filter,
